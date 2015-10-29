@@ -1,0 +1,4 @@
+
+Learning Modern 3D Graphics Programming
+随书实例代码，使用CMake编译。
+source code for this book, using CMake build system instead.

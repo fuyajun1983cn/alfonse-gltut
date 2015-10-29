@@ -1,0 +1,42 @@
+./Mesh.cpp:	throw std::runtime_error((message));
+./Mesh.cpp:			throw std::runtime_error("Attribute " + name + " " + msg);
+./Mesh.cpp:	throw std::runtime_error("Parse error in array data stream.");\
+./Mesh.cpp:			throw std::runtime_error("Unknown 'type' field.");
+./Mesh.cpp:				throw std::runtime_error("Attribute index must be between 0 and 16.");
+./Mesh.cpp:				throw std::runtime_error("Attribute size must be between 1 and 4.");
+./Mesh.cpp:					throw std::runtime_error("Incorrect 'integral' value for the 'attribute'.");
+./Mesh.cpp:					throw std::runtime_error("Attribute cannot be both 'integral' and a normalized 'type'.");
+./Mesh.cpp:					throw std::runtime_error("Attribute cannot be both 'integral' and a floating-point 'type'.");
+./Mesh.cpp:				throw std::runtime_error("The attribute must have an array of values.");
+./Mesh.cpp:				throw std::runtime_error("The attribute's data must be a multiple of its size in elements.");
+./Mesh.cpp:				throw std::runtime_error("Improper 'type' attribute value on 'index' element.");
+./Mesh.cpp:				throw std::runtime_error("The index element must have an array of values.");
+./Mesh.cpp:			throw std::runtime_error("Unknown 'cmd' field.");
+./Mesh.cpp:				throw std::runtime_error("`array` 'start' index must be between 0 or greater.");
+./Mesh.cpp:				throw std::runtime_error("`array` 'count' must be between 0 or greater.");
+./Mesh.cpp:			throw std::runtime_error("Bad command element " + strElemName + ". Must be 'indices' or 'arrays'.");
+./Mesh.cpp:				throw std::runtime_error("Could not find the mesh file: " + strDataFilename);
+./Mesh.cpp:					throw std::runtime_error("Some of the attribute arrays have different element counts.");
+./framework.cpp:		throw std::runtime_error("Could not find the file " + strBasename);
+./Scene.cpp:		throw std::runtime_error(message);
+./Scene.cpp:			throw std::runtime_error("Attribute " + name + " " + msg);
+./Scene.cpp:				throw std::runtime_error("Texture must have an extension. " + filename + " does not.");
+./Scene.cpp:		throw std::runtime_error("Unknown sampler name: " + name);
+./Scene.cpp:				throw std::runtime_error("Could not open the scene file.");
+./Scene.cpp:				throw std::runtime_error("Could not find the node named: " + nodeName);
+./Scene.cpp:				throw std::runtime_error("Could not find the program named: " + progName);
+./Scene.cpp:				throw std::runtime_error("Could not find the mesh named: " + meshName);
+./Scene.cpp:				throw std::runtime_error("Could not find the texture named: " + textureName);
+./Scene.cpp:				throw std::runtime_error("The mesh named \"" + name + "\" already exists.");
+./Scene.cpp:				throw std::runtime_error("The texture named \"" + name + "\" already exists.");
+./Scene.cpp:				throw std::runtime_error("The program named \"" + name + "\" already exists.");
+./Scene.cpp:				throw std::runtime_error("Could not find the matrix uniform " + matrixName +
+./Scene.cpp:					throw std::runtime_error("Could not find the normal matrix uniform " + matrixName +
+./Scene.cpp:						throw std::runtime_error("The uniform block " + name + " is used twice in the same program.");
+./Scene.cpp:						throw std::runtime_error("A sampler " + name + " is used twice within the same program.");
+./Scene.cpp:					throw std::runtime_error("Unknown element found in program.");
+./Scene.cpp:				throw std::runtime_error("The node named \"" + name + "\" already exists.");
+./Scene.cpp:				throw std::runtime_error("The node named \"" + name + 
+./Scene.cpp:				throw std::runtime_error("The node named \"" + name + 
+./Scene.cpp:					throw std::runtime_error("The node texture named \"" + textureName + 
+./Scene.cpp:					throw std::runtime_error("Multiply bound texture unit in node texture " + textureName);
